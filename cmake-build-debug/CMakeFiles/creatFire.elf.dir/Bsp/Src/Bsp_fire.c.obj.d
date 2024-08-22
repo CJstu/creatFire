@@ -1,5 +1,6 @@
-CMakeFiles/creatFire.elf.dir/Core/Src/stm32f0xx_hal_msp.c.obj: \
- E:\32_workspace\creatFire\Core\Src\stm32f0xx_hal_msp.c \
+CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_fire.c.obj: \
+ E:\32_workspace\creatFire\Bsp\Src\Bsp_fire.c \
+ E:\32_workspace\creatFire\Bsp\Inc/Bsp_fire.h \
  E:\32_workspace\creatFire\Core\Inc/main.h \
  E:\32_workspace\creatFire\Drivers\STM32F0xx_HAL_Driver\Inc/stm32f0xx_hal.h \
  E:\32_workspace\creatFire\Core\Inc/stm32f0xx_hal_conf.h \
@@ -40,5 +41,6 @@ CMakeFiles/creatFire.elf.dir/Core/Src/stm32f0xx_hal_msp.c.obj: \
  E:\32_workspace\creatFire\Drivers\STM32F0xx_HAL_Driver\Inc/stm32f0xx_hal_tim_ex.h \
  E:\32_workspace\creatFire\Drivers\STM32F0xx_HAL_Driver\Inc/stm32f0xx_hal_uart.h \
  E:\32_workspace\creatFire\Drivers\STM32F0xx_HAL_Driver\Inc/stm32f0xx_hal_uart_ex.h \
- E:\32_workspace\creatFire\Bsp\Inc/Bsp_fire.h \
- E:\32_workspace\creatFire\Bsp\Inc/Bsp_usart.h
+ E:\32_workspace\creatFire\Bsp\Inc/Bsp_usart.h \
+ E:\32_workspace\creatFire\Core\Inc/tim.h \
+ E:\32_workspace\creatFire\Core\Inc/main.h

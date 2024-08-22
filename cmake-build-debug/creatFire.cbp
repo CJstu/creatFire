@@ -27,6 +27,8 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F030x6"/>
+					<Add directory="E:/32_workspace/creatFire/Bsp/Inc"/>
+					<Add directory="E:/32_workspace/creatFire/App/Inc"/>
 					<Add directory="E:/32_workspace/creatFire/Core/Inc"/>
 					<Add directory="E:/32_workspace/creatFire/Drivers/STM32F0xx_HAL_Driver/Inc"/>
 					<Add directory="E:/32_workspace/creatFire/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"/>
@@ -56,6 +58,8 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F030x6"/>
+					<Add directory="E:/32_workspace/creatFire/Bsp/Inc"/>
+					<Add directory="E:/32_workspace/creatFire/App/Inc"/>
 					<Add directory="E:/32_workspace/creatFire/Core/Inc"/>
 					<Add directory="E:/32_workspace/creatFire/Drivers/STM32F0xx_HAL_Driver/Inc"/>
 					<Add directory="E:/32_workspace/creatFire/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"/>
@@ -96,6 +100,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/32_workspace/creatFire/Bsp/Inc/Bsp_fire.h">
+			<Option target="creatFire.elf"/>
+		</Unit>
+		<Unit filename="E:/32_workspace/creatFire/Bsp/Inc/Bsp_usart.h">
+			<Option target="creatFire.elf"/>
+		</Unit>
+		<Unit filename="E:/32_workspace/creatFire/Bsp/Src/Bsp_fire.c">
+			<Option target="creatFire.elf"/>
+		</Unit>
+		<Unit filename="E:/32_workspace/creatFire/Bsp/Src/Bsp_usart.c">
+			<Option target="creatFire.elf"/>
+		</Unit>
 		<Unit filename="E:/32_workspace/creatFire/Core/Inc/adc.h">
 			<Option target="creatFire.elf"/>
 		</Unit>

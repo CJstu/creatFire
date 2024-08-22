@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_fire.c.obj"
+  "CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_fire.c.obj.d"
+  "CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_usart.c.obj"
+  "CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_usart.c.obj.d"
   "CMakeFiles/creatFire.elf.dir/Core/Src/adc.c.obj"
   "CMakeFiles/creatFire.elf.dir/Core/Src/adc.c.obj.d"
   "CMakeFiles/creatFire.elf.dir/Core/Src/gpio.c.obj"

@@ -128,6 +128,54 @@ creatFire.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\creatFire.elf.dir\build.make CMakeFiles/creatFire.elf.dir/build
 .PHONY : creatFire.elf/fast
 
+Bsp/Src/Bsp_fire.obj: Bsp/Src/Bsp_fire.c.obj
+.PHONY : Bsp/Src/Bsp_fire.obj
+
+# target to build an object file
+Bsp/Src/Bsp_fire.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\creatFire.elf.dir\build.make CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_fire.c.obj
+.PHONY : Bsp/Src/Bsp_fire.c.obj
+
+Bsp/Src/Bsp_fire.i: Bsp/Src/Bsp_fire.c.i
+.PHONY : Bsp/Src/Bsp_fire.i
+
+# target to preprocess a source file
+Bsp/Src/Bsp_fire.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\creatFire.elf.dir\build.make CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_fire.c.i
+.PHONY : Bsp/Src/Bsp_fire.c.i
+
+Bsp/Src/Bsp_fire.s: Bsp/Src/Bsp_fire.c.s
+.PHONY : Bsp/Src/Bsp_fire.s
+
+# target to generate assembly for a file
+Bsp/Src/Bsp_fire.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\creatFire.elf.dir\build.make CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_fire.c.s
+.PHONY : Bsp/Src/Bsp_fire.c.s
+
+Bsp/Src/Bsp_usart.obj: Bsp/Src/Bsp_usart.c.obj
+.PHONY : Bsp/Src/Bsp_usart.obj
+
+# target to build an object file
+Bsp/Src/Bsp_usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\creatFire.elf.dir\build.make CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_usart.c.obj
+.PHONY : Bsp/Src/Bsp_usart.c.obj
+
+Bsp/Src/Bsp_usart.i: Bsp/Src/Bsp_usart.c.i
+.PHONY : Bsp/Src/Bsp_usart.i
+
+# target to preprocess a source file
+Bsp/Src/Bsp_usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\creatFire.elf.dir\build.make CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_usart.c.i
+.PHONY : Bsp/Src/Bsp_usart.c.i
+
+Bsp/Src/Bsp_usart.s: Bsp/Src/Bsp_usart.c.s
+.PHONY : Bsp/Src/Bsp_usart.s
+
+# target to generate assembly for a file
+Bsp/Src/Bsp_usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\creatFire.elf.dir\build.make CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_usart.c.s
+.PHONY : Bsp/Src/Bsp_usart.c.s
+
 Core/Src/adc.obj: Core/Src/adc.c.obj
 .PHONY : Core/Src/adc.obj
 
@@ -841,6 +889,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... creatFire.elf
+	@echo ... Bsp/Src/Bsp_fire.obj
+	@echo ... Bsp/Src/Bsp_fire.i
+	@echo ... Bsp/Src/Bsp_fire.s
+	@echo ... Bsp/Src/Bsp_usart.obj
+	@echo ... Bsp/Src/Bsp_usart.i
+	@echo ... Bsp/Src/Bsp_usart.s
 	@echo ... Core/Src/adc.obj
 	@echo ... Core/Src/adc.i
 	@echo ... Core/Src/adc.s

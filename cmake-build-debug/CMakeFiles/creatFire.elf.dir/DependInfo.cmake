@@ -21,6 +21,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "E:/32_workspace/creatFire/Bsp/Inc"
+  "E:/32_workspace/creatFire/App/Inc"
   "E:/32_workspace/creatFire/Core/Inc"
   "E:/32_workspace/creatFire/Drivers/STM32F0xx_HAL_Driver/Inc"
   "E:/32_workspace/creatFire/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"
@@ -30,6 +32,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/32_workspace/creatFire/Bsp/Src/Bsp_fire.c" "CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_fire.c.obj" "gcc" "CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_fire.c.obj.d"
+  "E:/32_workspace/creatFire/Bsp/Src/Bsp_usart.c" "CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_usart.c.obj" "gcc" "CMakeFiles/creatFire.elf.dir/Bsp/Src/Bsp_usart.c.obj.d"
   "E:/32_workspace/creatFire/Core/Src/adc.c" "CMakeFiles/creatFire.elf.dir/Core/Src/adc.c.obj" "gcc" "CMakeFiles/creatFire.elf.dir/Core/Src/adc.c.obj.d"
   "E:/32_workspace/creatFire/Core/Src/gpio.c" "CMakeFiles/creatFire.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/creatFire.elf.dir/Core/Src/gpio.c.obj.d"
   "E:/32_workspace/creatFire/Core/Src/main.c" "CMakeFiles/creatFire.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/creatFire.elf.dir/Core/Src/main.c.obj.d"

@@ -40,4 +40,7 @@ CMakeFiles/creatFire.elf.dir/Core/Src/adc.c.obj: \
  E:\32_workspace\creatFire\Drivers\STM32F0xx_HAL_Driver\Inc/stm32f0xx_hal_tim.h \
  E:\32_workspace\creatFire\Drivers\STM32F0xx_HAL_Driver\Inc/stm32f0xx_hal_tim_ex.h \
  E:\32_workspace\creatFire\Drivers\STM32F0xx_HAL_Driver\Inc/stm32f0xx_hal_uart.h \
- E:\32_workspace\creatFire\Drivers\STM32F0xx_HAL_Driver\Inc/stm32f0xx_hal_uart_ex.h
+ E:\32_workspace\creatFire\Drivers\STM32F0xx_HAL_Driver\Inc/stm32f0xx_hal_uart_ex.h \
+ E:\32_workspace\creatFire\Bsp\Inc/Bsp_fire.h \
+ E:\32_workspace\creatFire\Core\Inc/main.h \
+ E:\32_workspace\creatFire\Bsp\Inc/Bsp_usart.h
