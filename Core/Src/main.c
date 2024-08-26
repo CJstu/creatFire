@@ -93,9 +93,9 @@ int main(void)
   MX_TIM1_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  HAL_UART_Receive_IT(&huart1, &cmd, 1);
+  // HAL_UART_Receive_IT(&huart1, &cmd, 1);
   __HAL_TIM_SET_PRESCALER(&htim1, 700);
-  __HAL_TIM_SetCompare(&htim1,TIM_CHANNEL_2,100);
+  __HAL_TIM_SetCompare(&htim1,TIM_CHANNEL_2,50);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
   /* USER CODE END 2 */
 
